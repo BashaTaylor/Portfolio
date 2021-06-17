@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* outline: dotted purple; */
+    font-family: 'Varela Round', sans-serif;
+}
+
+.allContainer {
+    width: 980px;
+    height: 948px;
+    background: linear-gradient(to top left, rgb(36, 25, 36), rgb(53, 11, 53), rgb(160, 128, 160), rgb(36, 25, 36));
+    margin: 0px auto;
+    padding-bottom: 20px;
+    /* margin 0px auto will center the cointainer */
+}
+
+.jayneGrayHeader {
+    min-height: 70px;
+    background-color: rgb(241, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#jayne {
+    margin-left: 30px;
+}
+
+#master {
+    margin-right: 30px;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.photo-and-article {
+    width: 980px;
+}
+
+#profile-image {
+    width: 380px;
+    margin: 30px 5px 30px 27px;
+    border: solid 5px rgb(200, 193, 193);
+}
+
+.articles {
+    background: linear-gradient(to right, rgb(236, 229, 236), rgb(236, 229, 236), rgb(179, 140, 179));
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    height: 260.71px;
+    width: 490px;
+    font-size: 13px;
+    margin: 30px 24px 30px 35px;
+}
+
+.articles p {
+    padding: 15px;
+}
+
+h2,
+h3 {
+    background-image: linear-gradient(lightgray, gray, lightgray);
+    color: white;
+    padding: 10px;
+}
+
+.articles a {
+    margin: 15px 0 0 15px;
+    color: black;
+}
+
+.main {
+    width: 980px;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.three-divs {
+    background: linear-gradient(to right, rgb(236, 229, 236), rgb(236, 229, 236), rgb(179, 140, 179));
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+    height: 540px;
+    width: 285px;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.divsImgs {
+    width: 284px;
+    height: 150px;
+}
+
+.three-divs p {
+    margin: 10px;
+    text-align: justify;
+}
+
+.techIcon {
+    width: 40px;
+    margin: 5px;
+}
+
+#techMiddle {
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+
+#techLeft {
+    margin-top: 53px;
+    margin-bottom: 5px;
+}
+
+button {
+    display: block;
+    background-color: green;
+    color: white;
+    border: solid 1px black;
+    border-radius: 20px;
+    width: 120px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+#laModeBtn {
+    height: 25px;
+    width: 70px;
+    margin: 20px 0 0 110px;
+}
+
+#famContactsBtn {
+    height: 25px;
+    width: 115px;
+    margin: 20px 0 0 80px;
+}
+
+#fiveElevenBtn {
+    height: 25px;
+    width: 80px;
+    margin: 20px 0 0 102px;
+}
+
+.footer {
+    text-align: center;
+    height: 56px;
+    background-color: rgb(241, 240, 240);
+    margin-top: 34px;
+    padding: 10px 0 0 30px;
+}
+
+.footerImgs {
+    width: 16px;
+    flex-direction: column;
+}
