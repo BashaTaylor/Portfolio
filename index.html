@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="allContainer">
+    <div id="allContainer">
         <div class="jayneGrayHeader">
             <h1 id="jayne">Jayne Doe</h1>
             <p id="master">Master of shadows and the Internet!</p>
@@ -43,7 +43,9 @@
                 <img class="techIcon" src="./Images/HTML.png" alt="html-img">
                 <img class="techIcon" src="./Images/CSS.png" alt="css-img">
                 <img class="techIcon" src="./Images/bootstrap.png" alt="bootstrap-img">
-                <button id="laModeBtn">La Mode</button>
+                <form method="get" action="https://www.lamode.com.hk/">
+                    <button id="laModeBtn" type="submit">La Mode</button>
+                </form>
             </div>
             <div class="three-divs">
                 <h2>Family Contacts</h2>
@@ -60,7 +62,9 @@
                 <img class="techIcon" src="./Images/HTML.png" alt="html-img">
                 <img class="techIcon" src="./Images/CSS.png" alt="css-img">
                 <img class="techIcon" src="./Images/socket.png" alt="socket-img">
-                <button id="famContactsBtn">Family Contacts</button>
+                <form method="get" action="https://www.familycontact.org/IFCC/defaultsite">
+                    <button id="famContactsBtn" type="submit">Family Contacts</button>
+                </form>
             </div>
             <div class="three-divs">
                 <h2>fiveEleven</h2>
@@ -69,7 +73,7 @@
                     transforms the developer job-hunt into a more visual, user friendly experience. Based on location,
                     technology popularity, and other vast data sets, users may easily visualize the varying sizes and
                     concentrations of the junior developer job market across the nation.</p>
-                <h3>Technologies:</h3>
+                <h3 id="techRight">Technologies:</h3>
                 <img class="techIcon" src="./Images/python.png" alt="python-img">
                 <img class="techIcon" src="./Images/mongodb.png" alt="monodb-img">
                 <img class="techIcon" src="./Images/d3.png" alt="d3-img">
@@ -79,26 +83,28 @@
                 <img class="techIcon" src="./Images/CSS.png" alt="css-img">
                 <img class="techIcon" src="./Images/JavaScript.png" alt="javaScript-img">
                 <img class="techIcon" src="./Images/materialize.png" alt="materialize-img">
-                <button id="fiveElevenBtn">fiveEleven</button>
+                <form method="get" action="https://www.python.org/about/apps/">
+                    <button id="fiveElevenBtn" type="submit">fiveEleven</button>
+                </form>
+
             </div>
-
+            <footer class="footer">
+                <p id="emailFooter">jdoe@gmails.com||206-555-1212</p>
+                <img class="footerImgs" src="./Images/github.png" alt="githubImg"> <a
+                    href="https://github.com/search?q=jaynedev">jaynedev
+                </a>
+                <img class="footerImgs" src="./Images/linkedin.png" alt="linkedinImg"> <a
+                    href="https://www.linkedin.com/home">jayne-doe
+                </a>
+                <img class="footerImgs" src="./Images/twitter.png" alt="twitterImg"> <a
+                    href="https://twitter.com/?lang=en">jdtweets
+                </a>
+                <img class="footerImgs" src="./Images/codepen.png" alt="codepenImg"> <a
+                    href="https://codepen.io/">jaynedev
+                </a>
+            </footer>
         </div>
-        <footer class="footer">
-            <p>jdoe@gmails.com||206-555-1212</p>
-            <img class="footerImgs" src="./Images/github.png" alt="githubImg"> <a
-                href="https://github.com/search?q=jaynedev">jaynedev
-            </a>
-            <img class="footerImgs" src="./Images/linkedin.png" alt="linkedinImg"> <a
-                href="https://www.linkedin.com/home">jayne-doe
-            </a>
-            <img class="footerImgs" src="./Images/twitter.png" alt="twitterImg"> <a
-                href="https://twitter.com/?lang=en">jdtweets
-            </a>
-            <img class="footerImgs" src="./Images/codepen.png" alt="codepenImg"> <a href="https://codepen.io/">jaynedev
-            </a>
-        </footer>
     </div>
-
 </body>
 
 </html>
